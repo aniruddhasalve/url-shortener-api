@@ -4,7 +4,7 @@
 
 POST /shorten creates a short in-memory URL token; GET /r/{token} returns the target. Replace the store with Redis or SQLite when deploying.
 
-This is a small reusable Python 3.11 service with no AI components and no runtime dependencies. It uses the standard library HTTP server so it can be copied into internal automation, extended, or deployed behind a reverse proxy.
+This is a small reusable Python 3.11 service with no runtime dependencies. It uses the standard library HTTP server so it can be copied into internal automation, extended, or deployed behind a reverse proxy.
 
 ## Run
 
